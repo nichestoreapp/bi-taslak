@@ -83,9 +83,7 @@ function renderChrome() {
       <div class="wrap">
         <div class="footer__top">
           <div>
-            ${sig()}
-            <p class="footer__slogan">Bİ’ fikrin, Bİ’ deneyime dönüşsün.</p>
-            <a href="iletisim.html" class="btn" style="margin-top:12px">Bİ’ konuşalım ${ARROW}</a>
+            <a href="iletisim.html" class="btn">Bİ’ konuşalım ${ARROW}</a>
           </div>
           <div class="footer__cols">
             ${GROUPS.map(g => `
