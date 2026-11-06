@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>İletişim — Bİ’</title>
+  <link rel="icon" href="assets/img/bi-monogram.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=Jost:wght@300;400&family=Noto+Serif:ital@1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-page="iletisim" data-render="iletisim">
+  <div id="site-header"></div>
+  <main>
+    <section class="page-hero">
+      <div class="wrap">
+        <span class="eyebrow">İletişim</span>
+        <h1 class="display fade-up">Bİ’ konuşalım.</h1>
+        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod.</p>
+      </div>
+    </section>
+    <section class="section">
+      <div class="wrap split">
+        <div>
+          <ul class="contact-list">
+            <li><small>E-posta</small><a href="mailto:merhaba@ornek.com">merhaba@ornek.com</a></li>
+            <li><small>Telefon</small><a href="tel:+900000000000">+90 000 000 00 00</a></li>
+            <li><small>Instagram</small><a href="#">@lorem.ipsum</a></li>
+            <li><small>LinkedIn</small><a href="#">/in/lorem-ipsum</a></li>
+            <li><small>Konum</small><span>Lorem, İstanbul</span></li>
+          </ul>
+        </div>
+        <form class="form" id="contact-form">
+          <div class="form-2">
+            <div class="field"><label for="f-name">Ad soyad</label><input id="f-name" required></div>
+            <div class="field"><label for="f-mail">E-posta</label><input id="f-mail" type="email" required></div>
+          </div>
+          <div class="form-2">
+            <div class="field"><label for="f-org">Kurum</label><input id="f-org"></div>
+            <div class="field"><label for="f-service">İlgilendiğiniz alan</label><select id="f-service"></select></div>
+          </div>
+          <div class="field"><label for="f-msg">Mesajınız</label><textarea id="f-msg" placeholder="Lorem ipsum dolor sit amet..."></textarea></div>
+          <div style="display:flex;flex-wrap:wrap;align-items:center;gap:20px">
+            <button class="btn btn--fill" type="submit">Gönder <span class="arr">→</span></button>
+            <span class="form-note" id="form-note"></span>
+          </div>
+        </form>
+      </div>
+    </section>
+
+  </main>
+  <div id="site-footer"></div>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
